@@ -1,24 +1,24 @@
-# ‰Û‘è4ƒŒƒ|[ƒg
+# èª²é¡Œ4ãƒ¬ãƒãƒ¼ãƒˆ
 
-https://www.pakutaso.com/20140657168post-4246.html ‚ÌƒCƒ‰ƒXƒg‚ğŒ´‰æ‘œ‚Æ‚·‚éD‚±‚Ì‰æ‘œ‚Íc900‰æ‘œC‰¡1600‰æ‘f‚É‚æ‚é’·•ûŒ`‚ÌƒfƒBƒWƒ^ƒ‹ƒJƒ‰[‰æ‘œ‚Å‚ ‚éD
+https://www.pakutaso.com/20140657168post-4246.html ã®ã‚¤ãƒ©ã‚¹ãƒˆã‚’åŸç”»åƒã¨ã™ã‚‹ï¼ã“ã®ç”»åƒã¯ç¸¦900ç”»åƒï¼Œæ¨ª1600ç”»ç´ ã«ã‚ˆã‚‹é•·æ–¹å½¢ã®ãƒ‡ã‚£ã‚¸ã‚¿ãƒ«ã‚«ãƒ©ãƒ¼ç”»åƒã§ã‚ã‚‹ï¼
 
-ORG=imread('cat.jpg'); % Œ´‰æ‘œ‚Ì“ü—Í
-ORG = rgb2gray(ORG); colormap(gray); colorbar;
-imagesc(ORG); axis image; % ‰æ‘œ‚Ì•\¦
+ORG=imread('cat.jpg'); % åŸç”»åƒã®å…¥åŠ›  
+ORG = rgb2gray(ORG); colormap(gray); colorbar;  
+imagesc(ORG); axis image; % ç”»åƒã®è¡¨ç¤º  
 
-‚É‚æ‚Á‚ÄCŒ´‰æ‘œ‚ğƒOƒŒ[ƒXƒP[ƒ‹“Ç‚İ‚İC•\¦‚µ‚½Œ‹‰Ê‚ğ}‚P‚É¦‚·D
+ã«ã‚ˆã£ã¦ï¼ŒåŸç”»åƒã‚’ã‚°ãƒ¬ãƒ¼ã‚¹ã‚±ãƒ¼ãƒ«èª­ã¿è¾¼ã¿ï¼Œè¡¨ç¤ºã—ãŸçµæœã‚’å›³ï¼‘ã«ç¤ºã™ï¼
 
-![Œ´‰æ‘œ](https://github.com/luna3p/lecture_image_processing/blob/master/image/image4_1.PNG?raw=true)  
-}1 Œ´‰æ‘œ
+![åŸç”»åƒ](https://github.com/luna3p/lecture_image_processing/blob/master/image/image4_1.PNG?raw=true)  
+å›³1 åŸç”»åƒ
 
-Œ´‰æ‘œ‚ÌƒqƒXƒgƒOƒ‰ƒ€‚Ìì¬‚ğs‚¤. 
+åŸç”»åƒã®ãƒ’ã‚¹ãƒˆã‚°ãƒ©ãƒ ã®ä½œæˆã‚’è¡Œã†. 
 
 imhist(ORG);
 
-‰¡²‚ğ‹P“x’l‚Ì’l, c²‚ğ‚»‚Ì‹P“x’l‚Ì‰æ‘f”‚Æ‚µ‚ÄƒqƒXƒgƒOƒ‰ƒ€‚ğì¬‚µ‚»‚ÌƒqƒXƒgƒOƒ‰ƒ€‚ğ}‚Q‚É¦‚·D
+æ¨ªè»¸ã‚’è¼åº¦å€¤ã®å€¤, ç¸¦è»¸ã‚’ãã®è¼åº¦å€¤ã®ç”»ç´ æ•°ã¨ã—ã¦ãƒ’ã‚¹ãƒˆã‚°ãƒ©ãƒ ã‚’ä½œæˆã—ãã®ãƒ’ã‚¹ãƒˆã‚°ãƒ©ãƒ ã‚’å›³ï¼’ã«ç¤ºã™ï¼
 
-![Œ´‰æ‘œ](https://github.com/luna3p/lecture_image_processing/blob/master/image/image4_2.PNG?raw=true)  
-}2 ƒqƒXƒgƒOƒ‰ƒ€
+![åŸç”»åƒ](https://github.com/luna3p/lecture_image_processing/blob/master/image/image4_2.PNG?raw=true)  
+å›³2 ãƒ’ã‚¹ãƒˆã‚°ãƒ©ãƒ 
 
 
-ƒqƒXƒgƒOƒ‰ƒ€‰»‚·‚é‚Æ‚»‚Ì‰æ‘œ‚Ì‹P“x’l‚Ì•ª•z‚ª‚í‚©‚éD
+ãƒ’ã‚¹ãƒˆã‚°ãƒ©ãƒ åŒ–ã™ã‚‹ã¨ãã®ç”»åƒã®è¼åº¦å€¤ã®åˆ†å¸ƒãŒã‚ã‹ã‚‹ï¼
