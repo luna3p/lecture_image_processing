@@ -35,7 +35,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 図３の画像のヒストグラムの作成を行う. 
 
-ORG = uint8(ORG); % この行について考察せよ
+ORG = uint8(ORG); % この行について考察せよ  
 imhist(ORG); % 濃度ヒストグラムを生成、表示
 
 によってヒストグラムを表示できる. uint8(ORG)はダイナミックレンジの拡大のためにORGを一度double型に型変換を行っている. この画像は０～２５５の
