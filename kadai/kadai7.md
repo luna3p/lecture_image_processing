@@ -22,10 +22,10 @@ imhist(ORG);
 
 図２のヒストグラムを観察すると輝度値０～７０程の値が使用できていないことが分かる. この画像のレンジを広げるための処理を行う. 
 
-ORG = double(ORG);
-mn = min(ORG(:)); % 濃度値の最小値を算出
-mx = max(ORG(:)); % 濃度値の最大値を算出
-ORG = (ORG-mn)/(mx-mn)*255;
+ORG = double(ORG);  
+mn = min(ORG(:)); % 濃度値の最小値を算出  
+mx = max(ORG(:)); % 濃度値の最大値を算出  
+ORG = (ORG-mn)/(mx-mn)*255;  
 imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 ダイナミックレンジを拡大したときの画像を図３に示す. 
