@@ -39,3 +39,5 @@ IMG = filter2(f,IMG,'same'); % フィルタの適用
 
 ![原画像](https://github.com/luna3p/lecture_image_processing/blob/master/image/image9_5.PNG?raw=true)  
 図５ フィルタ画像
+
+平滑化フィルタとメディアンフィルタを用いることで, ノイズが除去されているように見える. 
