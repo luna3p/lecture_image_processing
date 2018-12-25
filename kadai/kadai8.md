@@ -27,4 +27,4 @@ imagesc(IMG); colormap(jet); colorbar; % ‰æ‘œ‚Ì•\¦
 ![Œ´‰æ‘œ](https://github.com/luna3p/lecture_image_processing/blob/master/image/image8_3.PNG?raw=true)  
 }3 ƒ‰ƒxƒŠƒ“ƒO‰æ‘œ
 
-}‚R
+}‚R‚æ‚èƒ‰ƒxƒŠƒ“ƒO‚³‚ê‚Ä‚¢‚é‚±‚Æ‚ª•ª‚©‚é. 
